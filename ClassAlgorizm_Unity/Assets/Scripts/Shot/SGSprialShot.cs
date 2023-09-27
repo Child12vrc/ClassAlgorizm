@@ -5,6 +5,7 @@ using UnityEngine.Serialization;                //추가 using 사용
 
 public class SGSprialShot : SGBaseShot
 {
+    public int wayNum = 4;
     public float startAngle = 180f;         //시작 각도
     public float shiftAngle = 10f;          //움직이는 각도
     public float betweenDealy = 0.2f;
